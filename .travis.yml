@@ -6,6 +6,8 @@ before_install:
 
 script:
     - docker run -e CI=true ravindrapatade/docker-react npm run test
+    
+language: generic
 
 deploy:
     edge: true
